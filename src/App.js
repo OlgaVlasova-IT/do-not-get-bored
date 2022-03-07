@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 function App() {
   const [activity, setActivity] = useState("");
   async function fetchActivity() {
-    const response = await fetch("http://www.boredapi.com/api/activity/");
+    const response = await fetch("https://www.boredapi.com/api/activity/");
     const data = await response.json();
     setActivity(data.activity);
   }
