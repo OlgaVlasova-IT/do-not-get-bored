@@ -9,7 +9,7 @@
     background-image: url("bored2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center bottom;
+    background-position: center center;
     
 }
 
@@ -45,6 +45,17 @@ body, #root{
   border: none;
   /* opacity:0.7; */
 color: black}
+
+
+@media all and (max-width:800px) {
+
+.contJokes{
+
+}
+.contActivity{
+
+} 
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -72,4 +83,11 @@ color: black}
   to {
     transform: rotate(360deg);
   }
+}
+
+@media all and (max-width:800px) {
+
+ .contJokes, .contActivity {
+   width:90%;
+ }
 }
