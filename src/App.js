@@ -41,7 +41,7 @@ function App() {
     <div className="App">
        
       <h2>Do not get bored</h2>
-      <header className="App-header">
+     <div className="contJokes">
       <h3> Choose a joke</h3>
       <p>{setup}</p>
       <p>{punchline}</p>
@@ -53,6 +53,8 @@ function App() {
         >
           Next Joke
         </button>
+        </div>
+        <header className="contActivity">
        <h3>Find activity to do</h3>
         <p>{activity}</p>
         <button
